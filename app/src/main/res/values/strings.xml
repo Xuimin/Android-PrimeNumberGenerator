@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Prime Generator</string>
+
+    <string name="start">Start</string>
+    <string name="end">End</string>
+
+    <string name="btn_generate">Generate</string>
+    <string name="btn_back">Back</string>
+
+    <string name="input_hint">Enter number</string>
+    <string name="prime_numbers">Prime Numbers</string>
+
+    <string name="no_prime">No Prime Numbers Found!</string>
+</resources>

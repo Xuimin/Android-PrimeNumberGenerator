@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:gravity="center_vertical"
+        tools:context=".ui.HomeFragment"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/padding_m">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_m"
+            android:paddingVertical="@dimen/padding_m" />
+
+        <EditText
+            android:id="@+id/et_start_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/input_hint"
+            android:background="@drawable/bg_input"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/end"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_m"
+            android:paddingVertical="@dimen/padding_m" />
+
+        <EditText
+            android:id="@+id/et_end_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/input_hint"
+            android:background="@drawable/bg_input" />
+
+        <Button
+            android:id="@+id/btn_generate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/btn_generate"
+            android:textSize="@dimen/font_m"
+            android:textAllCaps="false"
+            app:backgroundTint="@null"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="@dimen/padding_xl" />
+
+    </LinearLayout>
+</layout>
